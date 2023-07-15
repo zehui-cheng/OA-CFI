@@ -90,8 +90,8 @@ runspec  --action=run --config=test.cfg --tune=base --size=test --iterations=1 -
 3.在任一benchmark的build目录下，修改Makefile和Makefile.spec文件  
 Makefile修改Makefile.defaults路径为具体路径  
 Makefile.spec：  
-#add oscfi.c, mpxrt.c, mpxrt-utils.c in the source list, keep others same  
-SOURCES=oscfi.c mpxrt.c mpxrt-utils.c …  
+#add oacfi.c, mpxrt.c, mpxrt-utils.c in the source list, keep others same  
+SOURCES=oacfi.c mpxrt.c mpxrt-utils.c …  
   
 4.执行OA-CFI目录下的run.sh  
 
